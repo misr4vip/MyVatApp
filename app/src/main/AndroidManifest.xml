@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.myvatapp">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_saudia_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_saudia_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IndiaActivity"></activity>
+        <activity
+            android:name=".USAActivity"
+            android:label="Usa vat"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".EuropeActivity"
+            android:label="Europe vat" />
+        <activity android:name=".IncomeTaxActivity" />
+        <activity
+            android:name=".EgyptActivity"
+            android:label="Egypt vat" />
+        <activity
+            android:name=".SaudiaActivity"
+            android:label="Saudia vat" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

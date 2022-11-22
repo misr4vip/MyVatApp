@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/colorPrimary"
+    android:gravity="center|top"
+
+    tools:context=".MainActivity">
+<!-- Start Of Header -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:src="@mipmap/logo"
+        android:background="#E608AE" />
+    <!-- End Of Header -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+android:layout_weight=".2"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:weightSum="1"
+       >
+
+       <!-- Start Of Saudia -->
+       <ImageButton
+           android:id="@+id/iv_Saudia"
+           android:layout_width="0dp"
+           android:layout_weight=".3"
+           android:background="@color/colorPrimary"
+           android:layout_margin="10dp"
+           android:layout_height="182dp"
+           android:src="@mipmap/saudia"
+           />
+
+       <ImageButton
+           android:id="@+id/iv-egypt"
+           android:layout_width="0dp"
+           android:layout_weight=".3"
+           android:background="@color/colorPrimary"
+           android:layout_margin="10dp"
+           android:layout_height="182dp"
+           android:src="@mipmap/ic_egypt"
+           />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:weightSum="1"
+        >
+
+    <ImageButton
+        android:id="@+id/iv_europe"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="182dp"
+        android:background="@color/colorPrimary"
+        android:layout_weight=".3"
+        android:src="@mipmap/ic_europe"
+         />
+        <ImageButton
+            android:id="@+id/iv_india"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="182dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight=".3"
+            android:src="@mipmap/ic_india"
+
+            />
+    <ImageButton
+        android:id="@+id/iv_usa"
+        android:layout_width="0dp"
+        android:layout_weight=".3"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:layout_height="182dp"
+        android:src="@mipmap/ic_usa"
+         />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

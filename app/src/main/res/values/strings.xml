@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyVatApp</string>
+    <string name="Activity_sa">Saudia Vat</string>
+    <string name="Activity_usa_label">Usa Vat</string>
+</resources>
